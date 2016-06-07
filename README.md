@@ -10,6 +10,18 @@ The goal was to achieve a transmission of a ~160 character sentence by only usin
 
 The software starts by listening to the noise in order to understand its structure (2 distinct frequencies). It then computes as many pulses (modulated raised cosines) as possible such as they do not overlap with eachoter or with the noise in the frequency domain. After this, it encodes the message as a signal by assiging one or several pulses to one or more bits (depending on the configuration). Additionally, this signal is delimited by two pulses in order to achieve synchronization between the receiver and transmitter. The receiver simply consists of matched filters which are sampled in order to decode the signal.
 
+![](./raisedCosineTime.jpg)
+  *Figure 1: Single raised cosine in the time domain* 
+
+![](./raisedCosineFrequency.jpg)
+  *Figure 2: Single raised cosine in the frequency domain* 
+  
+![](./raisedCosinesTime.jpg)
+  *Figure 3: Multiple raised cosines in the time domain* 
+
+![](./raisedCosinesFrequency.jpg)
+  *Figure 4: Multiple raised cosines in the frequency domain* 
+
 
 ### Setup
 
