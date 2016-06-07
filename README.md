@@ -49,3 +49,7 @@ In the configuration cell, serveral parameters are available :
 - `redundency`: Number of times a symbol* is repeated (should be odd as the median of the decoded bits is taken)
 
 \* Symbol: Sum of pulses - in a signle pulse_dt, pulse_bits pulses are sent overlapped (summed), thus allowing for pulse_bits to be contained in pulse_dt seconds. 
+
+### License
+
+Project is available under [CC-BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/) and data belong their owners under appropriate licensing.
